@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(238,174,202,1) 1%, rgba(148,187,233,1) 100%);
+    font-family: 'Paytone One', sans-serif;   
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+    color: rgb(162, 50, 226);
+    cursor: pointer;
+}
+
+h1:hover{
+    color: rgb(230, 14, 238);
+}
+
+.contenedor-imagen{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 600px;
+    height: 450px;
+    margin: 30px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
